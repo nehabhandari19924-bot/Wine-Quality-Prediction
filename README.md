@@ -26,6 +26,32 @@ winequality-red.csv
 
 winequality-white.csv
 
+## 🔬 Features 
+
+1. Fixed Acidity – Amount of non-volatile acids (mainly tartaric acid) in wine.
+
+2. Volatile Acidity – Amount of acetic acid; too high gives a vinegar taste.
+
+3. Citric Acid – Adds freshness and flavor to wine.
+
+4. Residual Sugar – Sugar remaining after fermentation.
+
+5. Chlorides – Amount of salt in wine.
+
+6. Free Sulfur Dioxide – Free form of SO₂ that prevents oxidation.
+
+7. Total Sulfur Dioxide – Sum of free and bound SO₂ in the wine.
+
+8. Density – Mass of wine per unit volume (related to sugar and alcohol content).
+
+9. pH – Acidity level of wine (lower pH = more acidic).
+
+10. Sulphates – Contribute to wine’s stability and flavor.
+
+11. Alcohol – Percentage of alcohol in the wine.
+
+12. Type – Category of wine: Red or White (added column).
+
 ## ⚙️ Technologies Used
 
 Programming Language: Python
