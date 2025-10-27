@@ -1,10 +1,10 @@
 # Wine-Quality-Prediction
 
-##📖 Overview
+## 📖 Overview
 
 This project focuses on predicting the quality of red and white wines using machine learning. The dataset includes various physicochemical features (like acidity, alcohol, sugar content, etc.) that influence wine quality. The project performs data cleaning, visualization, correlation analysis, and model training using Linear Regression to evaluate prediction accuracy.
 
-##🎯 Objectives
+## 🎯 Objectives
 
 Analyze and visualize wine characteristics across red and white varieties.
 
@@ -16,7 +16,7 @@ Build and evaluate a machine learning model to predict wine quality scores.
 
 Compare quality attributes between red and white wines.
 
-##🧩 Dataset Information
+## 🧩 Dataset Information
 
 Source: UCI Machine Learning Repository - Wine Quality Dataset
 
@@ -26,7 +26,7 @@ winequality-red.csv
 
 winequality-white.csv
 
-##⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 Programming Language: Python
 
@@ -40,8 +40,8 @@ scipy – Statistical computations
 
 sklearn – Machine learning (Linear Regression, scaling, metrics)
 
-##📊 Steps & Implementation
-###1️⃣ Data Loading & Preprocessing
+## 📊 Steps & Implementation
+### 1️⃣ Data Loading & Preprocessing
 
 Loaded red and white wine datasets.
 
@@ -51,13 +51,13 @@ Combined datasets into a single DataFrame.
 
 Checked for missing values and summarized statistics.
 
-###2️⃣ Data Cleaning
+### 2️⃣ Data Cleaning
 
 Removed outliers using Z-score method.
 
 Ensured clean and balanced data distribution for modeling.
 
-###3️⃣ Data Visualization
+### 3️⃣ Data Visualization
 
 Countplot for wine quality distribution.
 
@@ -75,7 +75,7 @@ Correlation Heatmaps:
 
 For combined, red, and white datasets to study feature relationships.
 
-###4️⃣ Model Development
+### 4️⃣ Model Development
 
 Split data into training (80%) and testing (20%) sets.
 
@@ -83,7 +83,7 @@ Scaled features using StandardScaler.
 
 Implemented Linear Regression model for quality prediction.
 
-###5️⃣ Model Evaluation
+### 5️⃣ Model Evaluation
 
 Used standard regression metrics:
 
@@ -95,7 +95,7 @@ R²	Coefficient of Determination	~0.67
 
 (Values depend on your dataset after cleaning.)
 
-##🔍 Insights & Observations
+## 🔍 Insights & Observations
 
 Alcohol and citric acid have a positive correlation with wine quality.
 
@@ -105,7 +105,7 @@ White wines generally show higher quality consistency compared to red wines.
 
 Removing outliers improved regression accuracy.
 
-##🧠 Conclusion
+## 🧠 Conclusion
 
 The Linear Regression model provided a reasonable estimation of wine quality.
 However, model performance could be improved by:
@@ -116,7 +116,7 @@ Performing feature selection or dimensionality reduction (e.g., PCA).
 
 Adding more qualitative factors such as grape variety or fermentation details.
 
-##🚀 Future Scope
+## 🚀 Future Scope
 
 Deploy the model using Streamlit or Flask for real-time predictions.
 
@@ -124,7 +124,7 @@ Create an interactive dashboard for visualization.
 
 Implement classification models to categorize wines (e.g., low, medium, high quality).
 
-##📂 Project Structure
+## 📂 Project Structure
 wine_quality_analysis/
 │
 ├── winequality-red.csv
@@ -135,3 +135,4 @@ wine_quality_analysis/
     ├── correlation_heatmap.png
     ├── alcohol_vs_quality.png
     ├── boxplot_alcohol.png
+
